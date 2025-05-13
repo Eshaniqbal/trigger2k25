@@ -126,7 +126,7 @@ export const EVENTS_DATA: Event[] = [
   },
   {
     id: 'rrce-got-talent',
-    title: "RRCE's Got Talent",
+    title: "RRCE's Got Lalent",
     date: '15 May 2025',
     description: 'Showcase your unique talents - singing, dancing, magic, comedy, or anything extraordinary!',
     imageUrl: '/images/talent.jpg',

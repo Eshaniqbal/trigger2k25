@@ -11,9 +11,9 @@ export function ContactSection() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {/* Event Details */}
-          <div className="group bg-card/50 backdrop-blur-sm rounded-lg p-6 border border-border/40 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1">
+          <div className="group bg-card/50 backdrop-blur-sm rounded-lg p-6 border border-border/40 hover:border-primary/50 transition-colors duration-200">
             <div className="flex items-center gap-3 mb-6">
-              <div className="p-2 rounded-lg bg-primary/10 text-primary group-hover:scale-110 transition-transform duration-300">
+              <div className="p-2 rounded-lg bg-primary/10 text-primary">
                 <Calendar className="h-5 w-5" />
               </div>
               <h3 className="text-lg font-semibold text-foreground">Event Details</h3>
@@ -41,9 +41,9 @@ export function ContactSection() {
           </div>
           
           {/* Leadership */}
-          <div className="group bg-card/50 backdrop-blur-sm rounded-lg p-6 border border-border/40 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1">
+          <div className="group bg-card/50 backdrop-blur-sm rounded-lg p-6 border border-border/40 hover:border-primary/50 transition-colors duration-200">
             <div className="flex items-center gap-3 mb-6">
-              <div className="p-2 rounded-lg bg-primary/10 text-primary group-hover:scale-110 transition-transform duration-300">
+              <div className="p-2 rounded-lg bg-primary/10 text-primary">
                 <GraduationCap className="h-5 w-5" />
               </div>
               <h3 className="text-lg font-semibold text-foreground">Leadership</h3>
@@ -61,9 +61,9 @@ export function ContactSection() {
           </div>
 
           {/* Coordinators */}
-          <div className="group bg-card/50 backdrop-blur-sm rounded-lg p-6 border border-border/40 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1">
+          <div className="group bg-card/50 backdrop-blur-sm rounded-lg p-6 border border-border/40 hover:border-primary/50 transition-colors duration-200">
             <div className="flex items-center gap-3 mb-6">
-              <div className="p-2 rounded-lg bg-primary/10 text-primary group-hover:scale-110 transition-transform duration-300">
+              <div className="p-2 rounded-lg bg-primary/10 text-primary">
                 <Users className="h-5 w-5" />
               </div>
               <h3 className="text-lg font-semibold text-foreground">Coordinators</h3>
@@ -77,7 +77,7 @@ export function ContactSection() {
                 </div>
                 <div className="space-y-1">
                   <p className="text-sm text-muted-foreground">Sunil A</p>
-                  <a href="tel:7975467092" className="flex items-center gap-1 text-xs text-muted-foreground hover:text-primary transition-colors">
+                  <a href="tel:7975467092" className="flex items-center gap-1 text-xs text-muted-foreground hover:text-primary transition-colors duration-200">
                     <Phone className="h-3 w-3" />
                     <span>79754 67092</span>
                   </a>
@@ -93,7 +93,7 @@ export function ContactSection() {
                       <p className="text-sm text-muted-foreground">Vishwas V</p>
                       <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">Student</span>
                     </div>
-                    <a href="tel:6361101873" className="flex items-center gap-1 text-xs text-muted-foreground hover:text-primary transition-colors">
+                    <a href="tel:6361101873" className="flex items-center gap-1 text-xs text-muted-foreground hover:text-primary transition-colors duration-200">
                       <Phone className="h-3 w-3" />
                       <span>63611 01873</span>
                     </a>
@@ -104,7 +104,7 @@ export function ContactSection() {
                       <p className="text-sm text-muted-foreground">Poornashree</p>
                       <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">Student</span>
                     </div>
-                    <a href="tel:9482120949" className="flex items-center gap-1 text-xs text-muted-foreground hover:text-primary transition-colors">
+                    <a href="tel:9482120949" className="flex items-center gap-1 text-xs text-muted-foreground hover:text-primary transition-colors duration-200">
                       <Phone className="h-3 w-3" />
                       <span>94821 20949</span>
                     </a>
@@ -115,7 +115,7 @@ export function ContactSection() {
                       <p className="text-sm text-muted-foreground">Harshitha R Rao</p>
                       <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">Student</span>
                     </div>
-                    <a href="tel:8762754155" className="flex items-center gap-1 text-xs text-muted-foreground hover:text-primary transition-colors">
+                    <a href="tel:8762754155" className="flex items-center gap-1 text-xs text-muted-foreground hover:text-primary transition-colors duration-200">
                       <Phone className="h-3 w-3" />
                       <span>87627 54155</span>
                     </a>
